@@ -1,0 +1,9 @@
+# For Python 3.13 (Using YOLOv8 as alternative to MediaPipe)
+opencv-python==4.12.0.88
+ultralytics==8.2.103
+numpy==2.2.6
+Pillow==10.0.1
+torch>=2.0.0
+torchvision>=0.15.0
+rembg
+onnxruntime
