@@ -79,14 +79,12 @@ An interactive computer vision application that enables real-time virtual try-on
 
 ### 3. Install Dependencies
 
-opencv-python>=4.8.0
-numpy>=1.24.0
-pillow>=10.0.0
-mediapipe>=0.10.0
-ultralytics>=8.0.0
-torch>=2.0.0
-torchvision>=0.15.0
-rembg>=2.0.50
-tkinter
-
-requirements.txt:
+- opencv-python>=4.8.0
+- numpy>=1.24.0
+- pillow>=10.0.0
+- mediapipe>=0.10.0
+- ultralytics>=8.0.0
+- torch>=2.0.0
+- torchvision>=0.15.0
+- rembg>=2.0.50
+- tkinter
