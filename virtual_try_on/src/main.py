@@ -1160,7 +1160,7 @@ class VirtualTryOnApp:
             traceback.print_exc()
         
         finally:
-            print("\n🧹 Cleaning up")
+            print("\nCleaning up")
             if hasattr(self, 'cap') and self.cap is not None:
                 self.cap.release()
             if hasattr(self, 'hands') and self.hands is not None:

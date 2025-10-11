@@ -11,24 +11,6 @@ An interactive computer vision application that enables real-time virtual try-on
 
 ---
 
-## Table of Contents
-
-- [Features](#features)
-- [Demo](#demo)
-- [System Architecture](#system-architecture)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Controls](#controls)
-- [Project Structure](#project-structure)
-- [Technical Details](#technical-details)
-- [Troubleshooting](#troubleshooting)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## Features
 
 ### Core Functionality
@@ -54,14 +36,6 @@ An interactive computer vision application that enables real-time virtual try-on
 
 ---
 
-## Requirements
-
-### System Requirements
-- OS: Windows 10/11, macOS 10.15+, or Linux (Ubuntu 18.04+)
-- RAM: Minimum 4GB (8GB recommended)
-- CPU: Intel i5 or equivalent (GPU optional for GAN features)
-- Webcam: 720p or higher recommended
-
 ### Software Requirements
 - Python 3.11
 - pip (Python package manager)
@@ -76,17 +50,22 @@ An interactive computer vision application that enables real-time virtual try-on
 
 ### 2. Create Virtual Environment (Recommended)
 
+Use Python 3.11 for MediaPipe support
 
 ### 3. Install Dependencies
 
-opencv-python>=4.8.0
-numpy>=1.24.0
-pillow>=10.0.0
-mediapipe>=0.10.0
-ultralytics>=8.0.0
-torch>=2.0.0
-torchvision>=0.15.0
-rembg>=2.0.50
+Install the following dependencies:
+opencv-python
+numpy
+pillow
+mediapipe
+ultralytics
+torch
+torchvision
+rembg
+onnxruntime
 tkinter
 
-requirements.txt:
+### 4. Run Application
+
+Run the main.py file
