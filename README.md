@@ -47,14 +47,12 @@ An interactive computer vision application that enables real-time virtual try-on
 
 ### 1. Clone the Repository
 
-
 ### 2. Create Virtual Environment (Recommended)
 
 Use Python 3.11 for MediaPipe support
 
 ### 3. Install Dependencies
 
-<<<<<<< HEAD
 Install the following dependencies:
 opencv-python
 numpy
@@ -70,14 +68,3 @@ tkinter
 ### 4. Run Application
 
 Run the main.py file
-=======
-- opencv-python>=4.8.0
-- numpy>=1.24.0
-- pillow>=10.0.0
-- mediapipe>=0.10.0
-- ultralytics>=8.0.0
-- torch>=2.0.0
-- torchvision>=0.15.0
-- rembg>=2.0.50
-- tkinter
->>>>>>> 36243a3564e759a10f32e68e9bd7095a38b015ec
